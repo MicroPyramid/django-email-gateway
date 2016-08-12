@@ -1,5 +1,25 @@
 django-ses-gateway's documentation:
 =====================================
+.. image:: https://travis-ci.org/MicroPyramid/django-ses-gateway.svg?branch=master
+   :target: https://travis-ci.org/MicroPyramid/django-ses-gateway
+
+.. image:: https://img.shields.io/pypi/dm/django-ses-gateway.svg
+    :target: https://pypi.python.org/pypi/django-ses-gateway
+    :alt: Downloads
+
+.. image:: https://img.shields.io/pypi/v/django-ses-gateway.svg
+    :target: https://pypi.python.org/pypi/django-ses-gateway
+    :alt: Latest Release
+    
+.. image:: https://coveralls.io/repos/github/MicroPyramid/django-ses-gateway/badge.svg?branch=master
+   :target: https://coveralls.io/github/MicroPyramid/django-ses-gateway?branch=master
+
+.. image:: https://landscape.io/github/MicroPyramid/django-ses-gateway/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/MicroPyramid/django-ses-gateway/master
+   :alt: Code Health
+
+.. image:: https://img.shields.io/github/license/micropyramid/django-ses-gateway.svg
+    :target: https://pypi.python.org/pypi/django-ses-gateway/
 
 Introduction:
 =============
