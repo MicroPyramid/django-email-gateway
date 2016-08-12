@@ -22,7 +22,7 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
 
 setup(
     name='django-ses-gateway',
-    version='0.0.2',
+    version='0.1',
     packages=['django_ses_gateway'],
     include_package_data=True,
     description='A django package which act as a gateway to send and receive email with amazon SES.',
