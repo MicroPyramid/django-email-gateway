@@ -23,9 +23,9 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
 setup(
     name='django-ses-gateway',
     version='0.0.1',
-    packages=[],
+    packages=['django_ses_gateway'],
     include_package_data=True,
-    description='A Django deployment package for all hosting types.',
+    description='A django package which act as a gateway to send and receive email with amazon SES.',
     long_description=README,
     url='https://github.com/MicroPyramid/django-ses-gateway',
     author='Micropyramid',
@@ -47,5 +47,6 @@ setup(
     install_requires=[
         "django",
         "boto",
+        "lxml",
     ],
 )
