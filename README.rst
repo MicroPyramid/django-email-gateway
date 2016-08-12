@@ -10,7 +10,7 @@ django-ses-gateway's documentation:
 .. image:: https://img.shields.io/pypi/v/django-ses-gateway.svg
     :target: https://pypi.python.org/pypi/django-ses-gateway
     :alt: Latest Release
-    
+
 .. image:: https://coveralls.io/repos/github/MicroPyramid/django-ses-gateway/badge.svg?branch=master
    :target: https://coveralls.io/github/MicroPyramid/django-ses-gateway?branch=master
 
@@ -36,7 +36,7 @@ Installation Procedure
 
     		(or)
 
-    git clone git://github.com/micropyramid/django-blog-it.git
+    git clone git://github.com/micropyramid/django-ses-gateway.git
 
     cd django-ses-gateway
 

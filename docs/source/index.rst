@@ -29,7 +29,7 @@ Installation Procedure
 
     		(or)
 
-    git clone git://github.com/micropyramid/django-blog-it.git
+    git clone git://github.com/micropyramid/django-ses-gateway.git
 
     cd django-ses-gateway
 
