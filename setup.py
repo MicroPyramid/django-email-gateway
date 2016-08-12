@@ -27,7 +27,7 @@ setup(
     include_package_data=True,
     description='A django package which act as a gateway to send and receive email with amazon SES.',
     long_description=README,
-    url='https://github.com/MicroPyramid/django-ses-gateway',
+    url='https://github.com/chaitu210/django-ses-gateway',
     author='Micropyramid',
     author_email='hello@micropyramid.com',
     classifiers=[
