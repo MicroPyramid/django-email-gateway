@@ -2,7 +2,7 @@ django-ses-gateway's documentation:
 =====================================
 
 .. image:: https://readthedocs.org/projects/django-ses-gateway/badge/?version=latest
-   :target: https://readthedocs.org/projects/django-ses-gateway/?badge=latest
+   :target: http://django-ses-gateway.readthedocs.io/en/latest/
    :alt: Documentation Status
    
 .. image:: https://travis-ci.org/MicroPyramid/django-ses-gateway.svg?branch=master
