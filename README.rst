@@ -1,5 +1,10 @@
 django-ses-gateway's documentation:
 =====================================
+
+.. image:: https://readthedocs.org/projects/django-ses-gateway/badge/?version=latest
+   :target: https://readthedocs.org/projects/django-ses-gateway/?badge=latest
+   :alt: Documentation Status
+   
 .. image:: https://travis-ci.org/MicroPyramid/django-ses-gateway.svg?branch=master
    :target: https://travis-ci.org/MicroPyramid/django-ses-gateway
 
