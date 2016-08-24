@@ -1,4 +1,4 @@
-django-ses-gateway's documentation:
+django-ses-gateway:
 =====================================
 
 .. image:: https://readthedocs.org/projects/django-ses-gateway/badge/?version=latest
