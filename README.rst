@@ -24,7 +24,7 @@ django-ses-gateway's documentation:
 Introduction:
 =============
 
-django-ses-gateway is used for sending mails from your verified domains and verifed domains with less cost. We can also use django-ses-gateway for receive messages and deliver them to an Amazon S3 bucket in an enctypted format, call your custom code via an AWS Lambda function, or publish notifications to Amazon SNS to process the response.
+`Django ses gateway`_ is used for sending mails from your verified domains and verifed emails with less cost. We can also use django-ses-gateway for receive messages and deliver them to an Amazon S3 bucket in an enctypted format, call your custom code via an AWS Lambda function, or publish notifications to Amazon SNS to process the response.
 
 
 Installation Procedure
@@ -67,4 +67,11 @@ Usage:
 It will process the your message content, will return the email subject, from mail, to email(abc@yourdomain.com), hashcode(abc), mail content.
 
 
+We welcome your feedback and support, raise `github ticket`_ if you want to report a bug. Need new features? `Contact us here`_
 
+.. _contact us here: https://micropyramid.com/contact-us/
+
+.. _contact us here: https://micropyramid.com/contact-us/
+.. _avaliable online: http://django-ses-gateway.readthedocs.io/en/latest/
+.. _github ticket: https://github.com/MicroPyramid/django-ses-gateway/issues
+.. _Django ses gateway: https://micropyramid.com/oss/
