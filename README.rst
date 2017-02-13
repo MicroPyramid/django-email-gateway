@@ -71,5 +71,7 @@ Usage:
 
 It will process the your message content, will return the email subject, from mail, to email(abc@yourdomain.com), hashcode(abc), mail content.
 
+Visit our Django web development page `Here`_
 
+.. _Here: https://micropyramid.com/django-development-services/
 
