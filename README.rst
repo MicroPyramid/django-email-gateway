@@ -71,12 +71,12 @@ Usage:
 
 It will process the your message content, will return the email subject, from mail, to email(abc@yourdomain.com), hashcode(abc), mail content.
 
+Visit our Django web development page `Here`_
 
 We welcome your feedback and support, raise `github ticket`_ if you want to report a bug. Need new features? `Contact us here`_
-
-.. _contact us here: https://micropyramid.com/contact-us/
 
 .. _contact us here: https://micropyramid.com/contact-us/
 .. _avaliable online: http://django-ses-gateway.readthedocs.io/en/latest/
 .. _github ticket: https://github.com/MicroPyramid/django-ses-gateway/issues
 .. _Django ses gateway: https://micropyramid.com/oss/
+.. _Here: https://micropyramid.com/django-development-services/
