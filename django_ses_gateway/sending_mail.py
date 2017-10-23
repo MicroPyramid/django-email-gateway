@@ -10,7 +10,7 @@ def sending_mail(subject, email_template_name, context, from_email, to_email):
     htmly = loader.get_template(email_template_name)
     html_content = htmly.render(context)
     conn = boto.ses.connect_to_region(
-        'eu-west-1',
+        settings.AWS_HOST_NAME,
         aws_access_key_id=settings.AWS_ACCESS_KEY_ID,
         aws_secret_access_key=settings.AWS_SECRET_ACCESS_KEY)
     response = conn.send_email(
