@@ -8,10 +8,6 @@ django-ses-gateway:
 .. image:: https://travis-ci.org/MicroPyramid/django-ses-gateway.svg?branch=master
    :target: https://travis-ci.org/MicroPyramid/django-ses-gateway
 
-.. image:: https://img.shields.io/pypi/dm/django-ses-gateway.svg
-    :target: https://pypi.python.org/pypi/django-ses-gateway
-    :alt: Downloads
-
 .. image:: https://img.shields.io/pypi/v/django-ses-gateway.svg
     :target: https://pypi.python.org/pypi/django-ses-gateway
     :alt: Latest Release
