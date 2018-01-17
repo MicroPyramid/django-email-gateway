@@ -1,12 +1,12 @@
-django-ses-gateway's documentation:
+django-email-gateway's documentation:
 =====================================
 
 Introduction:
 =============
 
-django-ses-gateway is used for sending mails from your verified domains and verifed emails with less cost. We can also use django-ses-gateway for receive messages and deliver them to an Amazon S3 bucket in an enctypted format, call your custom code via an AWS Lambda function, or publish notifications to Amazon SNS to process the response.
+django-email-gateway is used for sending mails from your verified domains and verifed emails with less cost. We can also use django-email-gateway for receive messages and deliver them to an Amazon S3 bucket in an enctypted format, call your custom code via an AWS Lambda function, or publish notifications to Amazon SNS to process the response.
 
-Source Code is available in Micropyramid Repository(https://github.com/MicroPyramid/django-ses-gateway).
+Source Code is available in Micropyramid Repository(https://github.com/MicroPyramid/django-email-gateway).
 
 Modules used:
 	* lxml
@@ -23,15 +23,15 @@ lxml    >=3.6.1
 Installation Procedure
 ======================
 
-1. Install django-ses-gateway using the following command::
+1. Install django-email-gateway using the following command::
 
-    pip install django-ses-gateway
+    pip install django-email-gateway
 
     		(or)
 
-    git clone git://github.com/micropyramid/django-ses-gateway.git
+    git clone git://github.com/micropyramid/django-email-gateway.git
 
-    cd django-ses-gateway
+    cd django-email-gateway
 
     python setup.py install
 
@@ -82,11 +82,11 @@ Usage:
 
 1. Sending an email::
 
-    sending_mail(subject, email_template_name, context, from_email, to_email)
+    sending_mail(subject, email_template_name, context, from_email, to_email, verified)
 
 2. Receiving an email::
 
-    from django_ses_gateway.receiving_mail import sns_notification
+    from django_email_gateway.receiving_mail import sns_notification
     subject, from_mail, to_mail, hash_code, mail_content = sns_notification(request.body)
 
 It will process the your message content, will return the email subject, from mail, to email(abc@yourdomain.com), hashcode(abc), mail content.

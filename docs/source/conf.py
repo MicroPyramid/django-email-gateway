@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-ses-gateway'
+project = u'django-email-gateway'
 copyright = u'2016, MicroPyramid'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -176,7 +176,7 @@ html_static_path = ['nstatic']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'django-ses-gateway-doc'
+htmlhelp_basename = 'django-email-gateway-doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,8 +196,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'django-ses-gateway.tex', u'django-ses-gateway Documentation',
-   u'django-ses-gateway', 'manual'),
+  ('index', 'django-email-gateway.tex', u'django-email-gateway Documentation',
+   u'django-email-gateway', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -226,8 +226,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-ses-gateway', u'django-ses-gateway Documentation',
-     [u'django-ses-gateway'], 1)
+    ('index', 'django-email-gateway', u'django-email-gateway Documentation',
+     [u'django-email-gateway'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-ses-gateway', u'django-ses-gateway Documentation',
-   u'django-ses-gateway', 'django-ses-gateway', 'One line description of project.',
+  ('index', 'django-email-gateway', u'django-email-gateway Documentation',
+   u'django-email-gateway', 'django-email-gateway', 'One line description of project.',
    'Miscellaneous'),
 ]
 
