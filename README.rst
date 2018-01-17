@@ -65,6 +65,7 @@ Configuration
 
       MAIL_SENDER = 'AMAZON' | 'SENDGRID' | 'MAILGUN'
       INACTIVE_MAIL_SENDER = 'AMAZON' | 'SENDGRID' | 'MAILGUN'
+
 - If you're using **Amazon** as a email vendor, add the following settings with their values:
 
   .. code:: shell
