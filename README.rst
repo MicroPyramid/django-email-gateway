@@ -42,7 +42,7 @@ Installation Procedure
 
     .. code:: shell
 
-        $ pip install django-inbound-email
+        $ pip install django-email-gateway
 
 
 2. Pull the code from **github** using the following command:
