@@ -6,7 +6,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
-PROJECT_NAME = 'django-ses-gateway'
+PROJECT_NAME = 'django-email-gateway'
 
 data_files = []
 for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
@@ -21,13 +21,13 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
                 dirpath[len(PROJECT_NAME) + 1:], f))
 
 setup(
-    name='django-ses-gateway',
-    version='0.1.1',
-    packages=['django_ses_gateway'],
+    name='django-email-gateway',
+    version='0.1.2',
+    packages=['django_email_gateway'],
     include_package_data=True,
     description='A django package which act as a gateway to send and receive email with amazon SES.',
     long_description=README,
-    url='https://github.com/chaitu210/django-ses-gateway',
+    url='https://github.com/MicroPyramid/django-email-gateway',
     author='Micropyramid',
     author_email='hello@micropyramid.com',
     classifiers=[
