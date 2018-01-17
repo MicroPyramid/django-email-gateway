@@ -38,22 +38,18 @@ A Simple Django app to easily send emails, receive inbound emails from users wit
 Installation Procedure
 ======================
 
-1. Use **pip** to install easily with one step:
+1. Use **pip** to install easily with one step::
 
-    .. code:: shell
-
-        $ pip install django-email-gateway
+      $ pip install django-inbound-email
 
 
-2. Pull the code from **github** using the following command:
+2. Pull the code from **github** using the following command::
 
-    .. code:: shell
+      git clone git://github.com/micropyramid/django-email-gateway.git
 
-        git clone git://github.com/micropyramid/django-email-gateway.git
+      cd django-email-gateway
 
-        cd django-email-gateway
-
-        python setup.py install
+      python setup.py install
 
 
 Configuration
@@ -112,11 +108,11 @@ How To Use:
 1. Add these settings to send & receive emails from different vendors.
 
 
-1. **Sending email::**
+1. **Sending email**::
 
-    sending_mail(subject, email_template_name, context, from_email, to_email, verified)
+      sending_mail(subject, email_template_name, context, from_email, to_email, verified)
 
-2. **Receiving emails::**
+2. **Receiving emails**::
 
     from django_email_gateway.receiving_mail import sns_notification
     subject, from_mail, to_mail, hash_code, mail_content = sns_notification(request.body)
