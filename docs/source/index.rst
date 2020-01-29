@@ -82,7 +82,7 @@ Usage:
 
 1. Sending an email::
 
-    sending_mail(subject, email_template_name, context, from_email, to_email, verified)
+    sending_mail(subject, email_template_name, context, from_email, to_email, verified, cc_list=None, bcc_list=None)
 
 2. Receiving an email::
 
