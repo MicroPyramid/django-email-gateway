@@ -22,7 +22,7 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
 
 setup(
     name='django-email-gateway',
-    version='1.0.0',
+    version='2.0',
     packages=['django_email_gateway'],
     include_package_data=True,
     description='A django package which act as a gateway to send and receive email with amazon SES.',
