@@ -4,7 +4,7 @@ django-email-gateway's documentation:
 Introduction:
 =============
 
-django-email-gateway is used for sending mails from your verified domains and verifed emails with less cost. We can also use django-email-gateway for receive messages and deliver them to an Amazon S3 bucket in an enctypted format, call your custom code via an AWS Lambda function, or publish notifications to Amazon SNS to process the response.
+django-email-gateway is used for sending mails from your verified domains and verified emails with less cost. We can also use django-email-gateway for receive messages and deliver them to an Amazon S3 bucket in an enctypted format, call your custom code via an AWS Lambda function, or publish notifications to Amazon SNS to process the response.
 
 Source Code is available in Micropyramid Repository(https://github.com/MicroPyramid/django-email-gateway).
 
@@ -56,7 +56,7 @@ Login into AWS console if you have already AWS account or signup at https://port
 3. By clicking on Verify a New Domain, a popup will be appeared to create new domain along with dkim settings
 4. After creation of new domain, a popup will be appeared by displaying a txt, cname, mx records of a repsective domain. You need to add these reocords your domains dns server
 5. After adding these details, you can check your domain verification status
-6. If your domain successfully verifed, then all your emails with respective domain, sub domains will also be verified.
+6. If your domain successfully verified, then all your emails with respective domain, sub domains will also be verified.
 
 
 Verifying Email Addresses
