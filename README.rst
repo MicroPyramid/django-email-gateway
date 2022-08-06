@@ -92,7 +92,7 @@ How It Works?
 
 - Receiving Email:
 
-  You can easily get the receving emails from different vendors like sendgrid, aws ses, mailgun, by configuring and veririfying your website records in the specified email vendors like SES.
+  You can easily get the receiving emails from different vendors like sendgrid, aws ses, mailgun, by configuring and verifying your website records in the specified email vendors like SES.
 
   Now It supports only ses for receiving emails, we'll release a version to support sendgrid, mailgun.
 
